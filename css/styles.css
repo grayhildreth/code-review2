@@ -1,0 +1,18 @@
+.form-group {
+  width: 40%;
+}
+
+img {
+  float:right;
+}
+
+h1 {
+  color: F69C55;
+  font-weight: bold;
+  font-stretch: condensed;
+}
+
+.jumbotron{
+color: #5FBA7D;
+/*background-color:none !important;*/
+}
