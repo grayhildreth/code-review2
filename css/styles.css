@@ -7,12 +7,7 @@ img {
 }
 
 h1 {
-  color: F69C55;
+  color: orange;
   font-weight: bold;
   font-stretch: condensed;
-}
-
-.jumbotron{
-color: #5FBA7D;
-/*background-color:none !important;*/
 }
