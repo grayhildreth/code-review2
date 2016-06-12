@@ -6,6 +6,8 @@
 
 _This program is designed to suggest a vacation destination based off of user input through a survey-style interface.  It uses HTML, JavaScript, CSS, Jquery, and Bootstrap._
 
+[I'm an inline-style link](http://grayhildreth.github.io/code-review2)
+
 ## Known Bugs
 
 _The survey is not outputting a vacation destination, it is likely that there are issues with the JavaScript.  However, the survey does function properly when tested in JSFiddle._
