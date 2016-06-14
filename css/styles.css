@@ -6,7 +6,7 @@ img {
   float:right;
 }
 
-h1 {
+h1, h3 {
   color: orange;
   font-weight: bold;
   font-stretch: condensed;

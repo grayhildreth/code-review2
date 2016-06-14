@@ -1,89 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <head>
-      <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-      <script src="js/jquery-3.0.0.js"></script>
-      <title>Vacation</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1>Where to Vacation?</h1>
-          <div class="jumbotron">
-          <form id="vacation">
-            <img src="img/worldmap.jpg" width=450 alt="World Map" />
 
-<!-- QUESTION 1 -->
+      <h1>Where to vacation?</h1>
+      <img src="img/worldmap.jpg" width=450 alt="World Map" />
 
-          <div class="form-group">
-            <label for="destination">Beach or Mountains?</label>
-            <select type="text" class="form-control" id="destination">
-              <option value="beach">Beach</option>
-              <option value="mountains">Mountains</option>
-            </select>
-          </div>
+      <form id="vacation">
 
-<!-- QUSETION 2 -->
+<!-- Question 1  -->
 
-          <div class="form-group">
-            <label for="weather">Hot or Cold Weather?</label>
-            <select type="text" class="form-control" id="weather">
-              <option value="hot">Hot</option>
-              <option value="cold">Cold</option>
-            </select>
-          </div>
-
-<!-- QUESTION 3 -->
-
-          <div class="form-group">
-            <label for="music">Preferred music?</label>
-            <select type="text" class="form-control" id="music">
-              <option value="reggae">Reggae</option>
-              <option value="country">Country</option>
-            </select>
-          </div>
-
-<!-- QUESTION 4 -->
-
-          <div class="form-group">
-            <label for="shoes-sandals">Shoes, or sandals?</label>
-            <select type="text" class="form-control" id="shoes-sandals">
-              <option value="shoes">Shoes</option>
-              <option value="sandals">Sandals</option>
-            </select>
-          </div>
-
-<!-- QUESTION 5 -->
-
-          <div class="form-group">
-            <label for="transportation">Mode of transportation?</label>
-            <select type="text" class="form-control" id="transportation">
-              <option value="car">Car</option>
-              <option value="airplane">Airplane</option>
-            </select>
-          </div>
-
-
-
-          <button class="btn" type="submit">Submit</button>
-
-          <h3>Destination:</h3>
-
-          </form>
-
-            <div id="output">
-
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="form-group">
+      <label for="destination">Beach or Mountains?</label>
+      <select type="text" class="form-control" id="destination">
+      <option value="beach">Beach</option>
+      <option value="mountains">Mountains</option>
+      </select>
     </div>
 
+<!-- Question 2  -->
 
+    <div class="form-group">
+      <label for="weather">Hot or Cold Weather?</label>
+      <select type="text" class="form-control" id="weather">
+      <option value="hot">Hot</option>
+      <option value="cold">Cold</option>
+      </select>
+    </div>
+
+<!-- Question 3  -->
+
+    <div class="form-group">
+      <label for="music">Preferred music?</label>
+      <select type="text" class="form-control" id="music">
+      <option value="reggae">Reggae</option>
+      <option value="country">Country</option>
+      </select>
+    </div>
+
+<!-- Question 4  -->
+
+    <div class="form-group">
+      <label for="shoes-sandals">Shoes, or sandals?</label>
+      <select type="text" class="form-control" id="shoes-sandals">
+      <option value="shoes">Shoes</option>
+      <option value="sandals">Sandals</option>
+      </select>
+    </div>
+
+<!-- Question 5 -->
+
+    <div class="form-group">
+      <label for="transportation">Mode of transportation?</label>
+      <select type="text" class="form-control" id="transportation">
+      <option value="car">Car</option>
+      <option value="airplane">Airplane</option>
+      </select>
+    </div>
+
+<!-- Submit button  -->
+
+    <button type="submit">Submit</button>
+
+<!-- Answers -->
+
+    <h3>Destination:</h3>
+
+    <div id="output">
+
+
+    </div>
+
+<!-- End form  -->
+
+      </form>
+    </div>
   </body>
 </html>
